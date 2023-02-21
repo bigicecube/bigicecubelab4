@@ -12,3 +12,8 @@ TIleset2: Streetmap, black dots indicating location of public library in Washing
 Tileset3: Basemap of tileset1, yellow dots indicating location of wildfire occurence since 2008.
 Tileset4: Outdoor map with "wave image icon" indicating places with flood alerts in WA, especially in the coast.
 
+The url to map: https://bigicecube.github.io/bigicecubelab4/
+
+
+
+
