@@ -14,6 +14,13 @@ Tileset4: Outdoor map with "wave image icon" indicating places with flood alerts
 
 The url to map: https://bigicecube.github.io/bigicecubelab4/
 
+![tile1](https://github.com/bigicecube/bigicecubelab4/blob/main/img/tile1.PNG)
+![tile2](https://github.com/bigicecube/bigicecubelab4/blob/main/img/tile2.PNG)
+![tile3](https://github.com/bigicecube/bigicecubelab4/blob/main/img/tile3.PNG)
+![tile4](https://github.com/bigicecube/bigicecubelab4/blob/main/img/tile4.PNG)
+
+
+
 
 
 
