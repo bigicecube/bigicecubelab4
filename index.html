@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Map Design</title>
+    <title>Maps of Washington</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
@@ -20,12 +20,35 @@
             width: 100%;
         }
 
+        #title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 20px;
+            margin-left: 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 25pt;
+            color: black
+        }
+
+        
+        #subtitle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 70px;
+            margin-left: 0px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 12pt;
+            color: black
+        }
+
         /* the style of the layer control menu */
         #menu {
             background: #fff;
             position: absolute;
             z-index: 1;
-            top: 10px;
+            top: 140px;
             right: 10px;
             border-radius: 3px;
             width: 120px;
@@ -72,6 +95,16 @@
 <body>
     <nav id="menu"></nav>
     <div id='map'></div>
+    <div id="title">
+        Different Maps of Washington State
+    </div>
+    <div id="subtitle">
+        These are four different map designs regarding Washington state, based on different types of data.
+        Tileset1 : Plain monochrome map of WA.
+        Tileset2 : Street map, black dots indicating location of libraries in WA.
+        Tileset3 : Monochrome map with yellow dots indicating location of wildfire occurence in WA since 2008.
+        Tileset4 : Outdoor map with "wave image icon" indicating places with flood alerts in WA, especially in the coast.
+    </div>
     <script type="text/javascript">
         mapboxgl.accessToken =
             'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
